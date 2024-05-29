@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/daily"
+        android:title="@string/step_count_type_daily"
+        android:icon="@drawable/daily"/>
+    <item
+        android:id="@+id/weekly"
+        android:title="@string/step_count_type_weekly"
+        android:icon="@drawable/weekly"/>
+    <item
+        android:id="@+id/monthly"
+        android:title="@string/step_count_type_monthly"
+        android:icon="@drawable/monthly"/>
+    <item
+        android:id="@+id/yearly"
+        android:title="@string/step_count_type_yearly"
+        android:icon="@drawable/yearly"/>
+</menu>

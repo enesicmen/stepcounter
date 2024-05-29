@@ -1,8 +1,8 @@
-package com.icmen.stepcounter.ui
+package com.icmen.stepcounter
+
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.icmen.stepcounter.R
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
