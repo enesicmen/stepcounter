@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModel
 import androidx.viewbinding.ViewBinding
 import androidx.lifecycle.ViewModelProvider
-import com.icmen.stepcounter.MainActivity
+import com.icmen.stepcounter.ui.MainActivity
 
 abstract class BaseFragment<VB : ViewBinding, VM : ViewModel> : Fragment() {
 
