@@ -1,18 +1,18 @@
-- Projede Google Fitness API ve Firebase teknolojilerini kullandim.
-- Uygulamayi Kotlin yazilim dili ile gelistirdim.
-- Kod dosyalarini duzenlemek icin data, di(dependency injection) ve ui klasorlerini kullandim.
-- Dependency injection olarak Dagger Hilt kullandim
-- Navigation component kullanarak fragmentleri ve ekranlar arasi gecisleri yonettim.
-- UI elementleri icin Material Design prensiplerini ve view'larini kullandim.
+- Projede Google Fitness API ve Firebase teknolojilerini kullandım.
+- Uygulamayı Kotlin yazılım dili ile geliştirdim.
+- Kod dosyalarını düzenlemek için data, di(dependency injection) ve ui klasörlerini kullandım.
+- Dependency injection olarak Dagger Hilt kullandım.
+- Navigation component kullanarak fragmentleri ve ekranlar arasi geçişleri yönettim.
+- UI elementleri için Material Design prensiplerini ve view'larını kullandım.
 
-- Oncelikle proje yapisini olusturdum ve ekran tasarimini tamamladim.
-- Daha sonra Google Cloud Console uzerinde yeni bir Android projesi olusturdum.
-- Projem icin Fitness API'yi etkinlestirdim.
-- Projeme ait package id, SHA-1 key gibi gerekli bilgileri vererek Projem icin Credentials olusturdum, gerekli bilgileri projeme ekledim.
-- OAuth consent (kullanicinin Google mail adresi ile giris yaptigi dialog ekrani) icin gerekli bilgileri tamamladim ve uygulama icin test user'lari ekledim. Diger turlu uygulamanin yayinlanmasi ve verify edilmesi gerekiyor, bu sebeple test user'lari ekledim. Sizin giris yapacaginiz kullanici test user'i olarak ekli olmadigi icin adim verilerini goremeyebilirsiniz.
-- Google DOkumanlarini okuyarak Google Fitness SDK'yi Android projeme entegre ettim ve kullanicinin data'larini almaya basladim. Fakat kullanicnin sadece adim sayisini okuyabildim.
-- Kullanicinin gunluk, haftlik, aylik ve yillik adim sayisi verilerini SDK uzerinden parametre girerek okuyabiliyorum, adim sayisini ekranda gosteririken tarih araligini da ekranda gosterdim.
-- Fakat Fitness API gunluk, haftalik, aylik ve yillik icin surekli ayni adim sayisini veriyor, sebebini bulamadim.
-- Ayrica Fitness API dun calisirken bugun veriler duzensiz gelmeye, hatta gelmemeye basladi. Sanirim Fitness API request limitine takiliyor. Dun cektigim ekran videolarina(video_1.mp4 ve video_2.mp4 dosyaları) goz atabilirsiniz.
+- Öncelikle proje yapısını oluşturdum ve ekran tasarımını tamamladım.
+- Daha sonra Google Cloud Console üzerinde yeni bir Android projesi oluşturdum.
+- Projem icin Fitness API'yi etkinleştirdim.
+- Projeme ait package id, SHA-1 key gibi gerekli bilgileri vererek Projem için Credentials oluşturdum, gerekli bilgileri projeme ekledim.
+- OAuth consent (kullanıcıniın Google mail adresi ile giriş yaptığiı dialog ekranı) için gerekli bilgileri tamamladım ve uygulama için test user'lari ekledim. Diğer türlü uygulamanın yayınlanması ve verify edilmesi gerekiyor, bu sebeple test user'ları ekledim. Sizin giriş yapacağınız kullanıcı test user'ı olarak ekli olmadiığı için adım verilerini göremeyebilirsiniz.
+- Google Dökumanlarını okuyarak Google Fitness SDK'yı Android projeme entegre ettim ve kullanıcının data'larını almaya başladim. Fakat kullanıcının sadece adım sayısını okuyabildim.
+- Kullanıcının günlük, hafatliık, aylık ve yıllık adım sayısı verilerini SDK uüzerinden parametre girerek okuyabiliyorum, adım sayısını ekranda gösteririken tarih aralığinı da ekranda gösterdim.
+- Fakat Fitness API günlük, haftalık, aylık ve yıllık için sürekli aynı adım sayısını veriyor, sebebini bulamadım.
+- Ayrıca Fitness API dün çalışırken bugün veriler düzensiz gelmeye, hatta gelmemeye basladı. Sanırım Fitness API request limitine takılıyor. Dün çektigim ekran videolarına(video_1.mp4 ve video_2.mp4 dosyaları) göz atabilirsiniz.
 
-- Projenin APK'sini ve ekran videolarini da githugb'a ekledim, kontrol edebilirsiniz.
+- Projenin APK'sını ve ekran videolarını da github'a ekledim, kontrol edebilirsiniz.
